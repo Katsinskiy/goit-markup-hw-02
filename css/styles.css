@@ -25,7 +25,7 @@ body {font-family: 'Roboto', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0.83;
     color: #2196F3;}
 
     .logo-studio {color: #000000;}
@@ -33,7 +33,7 @@ body {font-family: 'Roboto', sans-serif;
 
     .site-nav .link {color: var(--primary-text-color);
     font-weight: 500;
-    line-height: 16px;
+    line-height: 0.87;
     letter-spacing: 0.02em;
     }
       
@@ -171,11 +171,13 @@ body {font-family: 'Roboto', sans-serif;
     /*button*/
 
     .btn {
+    cursor: pointer;
     background-color: #F5F4FA;
     color: var(--primary-text-color);
     font-size: 500;   
     font-size: 16px;
-    line-height: 0.61;}
+    line-height: 0.61;
+}
     
     .btn.active {background-color: var(--accent-color);}
     
