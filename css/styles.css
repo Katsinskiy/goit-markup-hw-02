@@ -16,20 +16,18 @@ body {font-family: 'Roboto', sans-serif;
 
     .list {list-style: none;}
     .link {text-decoration: none;}
-    .section-title {background-color: var(--primary-white-color);
-
-    }
+    
     
    
    
 /*logo*/
     .logo {
-        font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-color: #2196F3;
-    }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;}
+
     .logo-studio {color: #000000;}
     /*site-nav*/
 
@@ -49,18 +47,26 @@ color: #2196F3;
     .adress-nav .link:hover {color: var(--accent-color);}
     .adress-nav .link:focus {color: var(--accent-color);}
 
-    .site-nav .link-current {color: var(--accent-color); }
+    .site-nav .link-current {font-weight: 500;
+        color: var(--accent-color); }
 
+    .studio-meil {
+    color: var(--secondary-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+    text-decoration: none;}
 
-    .button-nav .btn {background-color: #F5F4FA;
-    color: var(--primary-text-color)
-    ont-weight: 500;
-    font-size: 16px;
-    line-height: 26px;}
-
-    .button-nav .btn:active {background-color: var(--accent-color); color: var(--primary-white-color);}
-    .button-nav .btn:hover {background-color: var(--accent-color); color: var(--primary-white-color);}
-    .button-nav .btn:focus {background-color: var(--accent-color); color: var(--primary-white-color);}
+    .studio-tel {
+    color: var(--secondary-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+    text-decoration: none;
+    }
+  
     
     /*шапка*/
 
@@ -81,18 +87,24 @@ color: #2196F3;
     }
 
     /*Особенности*/
+
     
-    .peculiarities-list .title {color: var(--primary-text-color); 
+    .peculiarities-list .title 
+    {color: var(--primary-text-color); 
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;}
+
+    .name-title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    }
 
     
     .about-peculiarities {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    color: #757575; }
+    color: var(--secondary-color); }
 
     /*Наша команда*/
 
@@ -100,13 +112,12 @@ color: #2196F3;
     {font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-        color: var(--primary-text-color);}
+    color: var(--primary-text-color);}
 
     .team-profession 
-    {font-weight: 400;
-    font-size: 16px;
+    {font-size: 16px;
     line-height: 1.18;
-    color: #757575;}
+    color: var(--secondary-color);}
 
     /*Футер*/
 
@@ -117,18 +128,22 @@ color: #2196F3;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #2196F3;}
+    color: var(--accent-color);}
+
     .footer-logostudio {color: var(--primary-white-color);}
     
     .post-adress {
-    font-weight: 400;
+    font-style: normal;
     line-height: 0.06;
     color: var(--primary-white-color);}
 
     .link-footer
-    {font-weight: 400;
+    {font-style: normal;
+    text-decoration: none;
     line-height: 0.06;
     color: rgba(255, 255, 255, 0.6);}
+
+
 
     /*Портфолио-Все*/
 
@@ -137,13 +152,28 @@ color: #2196F3;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--primary-text-color);
-        }
-.project-item {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-color: var(--secondary-color);
-}
+    color: var(--primary-text-color);}
 
+    .project-item {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-color);}
+
+    /*button*/
+
+    .btn .active {
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+    font-size: 500;   
+    font-size: 16px;
+    line-height: 0.61;}
+    
+    
+    .btn.active:hover {background-color: var(--accent-color); color: var(--primary-white-color);}
+    .btn.active:focus {background-color: var(--accent-color); color: var(--primary-white-color);}
+    .btn.active:active {background-color: var(--accent-color); color: var(--primary-white-color);}
+    
+
+
+ 
 
