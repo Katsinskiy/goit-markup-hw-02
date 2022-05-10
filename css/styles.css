@@ -141,13 +141,11 @@ body {font-family: 'Roboto', sans-serif;
     .footer-logostudio {color: var(--primary-white-color);}
     
     .post-adress {
-    font-style: normal;
     line-height: 0.06;
     color: var(--primary-white-color);}
 
     .link-footer
-    {font-style: normal;
-    text-decoration: none;
+    {text-decoration: none;
     line-height: 0.06;
     color: rgba(255, 255, 255, 0.6);}
     .link-footer:hover {color: var(--accent-color);}
