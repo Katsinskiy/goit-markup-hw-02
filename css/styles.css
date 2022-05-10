@@ -42,7 +42,7 @@ body {font-family: 'Roboto', sans-serif;
 
     .adress-nav .link {color: var(--primary-text-color);
     font-weight: 500;
-    line-height: 16px;
+    line-height: 0.87;
     letter-spacing: 0.02em;}
     .adress-nav .link:hover {color: var(--accent-color);}
     .adress-nav .link:focus {color: var(--accent-color);}
@@ -86,6 +86,17 @@ body {font-family: 'Roboto', sans-serif;
         letter-spacing: 0.06em;
         text-transform: uppercase;
     color: var(--primary-white-color)}
+
+    .order-services {
+        cursor: pointer;
+        background-color: #2196F3;
+        color: var(--primary-white-color);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 0.53;
+        letter-spacing: 0.06em;}
+
+    
     
     .section-title {
     font-size: 36px;
